@@ -10,10 +10,12 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'simple_form'
 
 group :development, :test do
   gem 'awesome_print'
   gem 'pry'
+  gem 'ffaker'
 end
 
 group :test do
